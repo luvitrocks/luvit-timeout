@@ -1,6 +1,6 @@
 # luvit-timeout
 
-Times out the request in ``ms`` (defaulting to ``5000``) middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
+Timing out the request in ``ms`` (defaulting to ``5000``) middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
 
 ## Install
 
