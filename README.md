@@ -20,7 +20,7 @@ Returns middleware that times out in ``time`` milliseconds. On timeout request w
 
 ### Options
 
-- ``respond`` - If ``true``, the timeout error is passed to next() so that you may customize the response behavior, defaults to ``true``
+- ``respond`` - If ``true``, the timeout error is passed to ``nxt()`` so that you may customize the response behavior, defaults to ``true``
 
 ##### ``req.clearTimeout()``
 
