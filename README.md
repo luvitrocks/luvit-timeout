@@ -1,16 +1,12 @@
 # luvit-timeout
 
-Timing out the request in ``ms`` (defaulting to ``5000``) middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
+> Timing out the request in ``ms`` (defaulting to ``5000``) middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
 
 ## Install
 
 ```bash
-npm install luvit-timeout
+lit install @voronianski/timeout
 ```
-
-If you're not familiar with [npm](https://www.npmjs.org/) check this out:
-- https://github.com/voronianski/luvit-npm-example#how-to
-- https://github.com/luvitrocks/luvit-utopia#install
 
 ## API
 
@@ -33,10 +29,10 @@ It's ``true`` if timeout fired and ``false`` otherwise.
 ## Example
 
 ```lua
-local utopia = require('luvit-utopia')
-local timeout = require('luvit-timeout')
+local Utopia = require('utopia')
+local timeout = require('timeout')
 
-local app = utopia:new()
+local app = Utopia:new()
 
 app:use(timeout(2000))
 
@@ -47,7 +43,7 @@ app:listen(8080)
 
 MIT Licensed
 
-Copyright (c) 2014 Dmitri Voronianski [dmitri.voronianski@gmail.com](mailto:dmitri.voronianski@gmail.com)
+Copyright (c) 2014-2016 Dmitri Voronianski [dmitri.voronianski@gmail.com](mailto:dmitri.voronianski@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
