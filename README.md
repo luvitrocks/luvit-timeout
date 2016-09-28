@@ -1,11 +1,11 @@
-# luvit-timeout
+# Timeout
 
 > Timing out the request in ``ms`` (defaulting to ``5000``) middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
 
 ## Install
 
 ```bash
-lit install @voronianski/timeout
+lit install voronianski/timeout
 ```
 
 ## API
